@@ -11,8 +11,12 @@ const PrintUser = ({ user }) => {
             <h2> Web Developer - Web Designer</h2>
             <p>{user.bio}</p>
             <div className="logo">
-            <FontAwesomeIcon icon={faSquareFacebook}  />
+              <a href="https://www.facebook.com/deividas.juodis.3" target='_blank'>
+            <FontAwesomeIcon icon={faSquareFacebook} />
+              </a>
+              <a href="https://twitter.com/juodmanas" target='_blank'>
             <FontAwesomeIcon icon={faSquareTwitter} />
+              </a>
             <FontAwesomeIcon icon={faSquareGooglePlus} />
             </div>
           </>

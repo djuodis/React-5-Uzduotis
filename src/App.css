@@ -49,13 +49,20 @@ body {
 }
 
 .conaitainer .logo {
-    color: white;
     display: flex;
     gap: 20px;
 }
 
 .conaitainer .logo svg {
+    color: white;
     height: 50px;
+    cursor: pointer;
+}
+
+.conaitainer .logo svg:hover {
+    color: lightblue;
+    height: 50px;
+    cursor: pointer;
 }
 
 @media (max-width: 768px ){
